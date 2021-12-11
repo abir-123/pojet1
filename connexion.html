@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Groovy-connexion</title>
+    <style>
+    nav ul{
+margin: 0px;
+padding: 0px;
+overflow: hidden;
+    }
+    nav li {
+        list-style-type: none;
+        float: left;
+    }
+    nav a {
+        padding: 5px 5px;
+    }
+   #imagePrincipale{
+       
+       background: url(imk.jpg)no-repeat 5% 25%;
+     
+    height: 450px;
+  
+    background-size: cover;
+    
+   }
+
+    </style>
+   
+     <h1>Get Groovy</h1>
+     <nav>
+         <ul>
+           <li><a href="index.html">Acceuil</a>
+             
+           </li>
+           <li><a href="#">Albums</a>
+             
+           </li>
+           <li><a href="promotion.html">Promotions</a></li>
+           <li><a href="#">Contact</a></li>
+           <li><a href="connexion.html">Inscription</a></li>
+         </ul>
+       </nav>
+       <hr>
+      <div id="imagePrincipale">
+
+      </div>
+ 
+</head>
+<body>
+  <h2>Welcome to the groove</h2>    
+  <hr style="color: black;">
+  
+  <form action="index3.html" method="post">
+
+  <table class="p1" border="1">
+   
+
+   
+    <tr>
+        <td rowspan="8" colspan="4">Fiche Personnelle</td>
+        <td>Nom:</td>
+        <td>  <input type="text" id="name" name="nom"  maxlength="20" required></td>
+    </tr>
+    <tr>
+        <td >Prénom</td>
+        <td ><input type="text" id="name" name="Prénom"  maxlength="20" required></td>
+       
+    </tr>
+    <tr>
+        <td >Date</td>
+        <td > <input type="date" id="start" name="date"
+            value=""  min="2002-01-01" required ></td>
+       
+    </tr>
+    <tr>
+        <td >Sexe</td>
+        <td ><input type="radio" checked>Femme
+        <input type="radio">Homme</td>
+    </tr>
+    <tr>
+        <td >Addresse email:</td>
+        <td ><input type="email" id="email" pattern="+@gmail.com" required></td>
+       
+    </tr>
+    <tr>
+        <td >Téléphone</td>
+        <td ><input type="tel" id="phone" name="phone"
+            
+            required placeholder="12-345-678"></td>
+       
+    </tr>
+    <tr>
+        <td >Profession</td>
+        <td ><select name="pets" id="pet-select">
+            <option value="dog">étudiant</option>
+            <option value="cat">enseignant</option>
+            <option value="hamster">ingénieur</option>
+            
+        </select></td>
+       
+    </tr>
+    <tr>
+        <td >Addrese</td>
+        <td ><textarea name="text" id="" cols="30" rows="10" required></textarea></td>
+       
+    </tr>
+ 
+    <tr>
+        <td colspan="4" rowspan="4">Préférences</td>
+        <td>Style de musique:</td>
+    </tr>
+   <tr>
+       <td><input type="checkbox" id="scales" name="scales"
+        >
+ <label for="Style de musique">R&B</label></td> 
+ <td><input type="checkbox" id="Style de musique" name="Style de musique"
+   >
+<label for="Style de musique">Soul</label></td> 
+   </tr>
+   <tr>
+ <td><input type="checkbox" id="Style de musique" name="Style de musique"
+        >
+ <label for="Style de musique">Jazz</label></td>
+ <td><input type="checkbox" id="Style de musique" name="Style de musique"
+    >
+<label for="Style de musique">Rock</label></td> 
+</tr>
+ <tr>
+ <td><input type="checkbox" id="Style de musique" name="Style de musique"
+        >
+ <label for="Style de musique">Electronic</label></td>
+ <td><input type="checkbox" id="Style de musique" name="Style de musique"
+    >
+<label for="Style de musique">Classic</label></td> 
+    </tr>
+    
+    <tr>
+        <td colspan="4" rowspan="3">Information de connexion</td>
+        <td>Login:</td>
+        <td>  <input type="text" id="name" name="user_name"  maxlength="20" required></td>
+    </tr>
+    <tr>
+        
+        <td>Mot de passe:</td>
+        <td>  <input type="text" id="name" name="user_name"  maxlength="20" required></td>
+    </tr>
+    <tr>
+        
+    
+        <td>Confirmer mot de passe:</td>
+        <td>  <input type="text" id="name" name="user_name"  maxlength="20" required></td>
+    </tr>
+    <tr>
+        
+        <td colspan="4"></td>
+        <td><button type="submit"> Envoyer </button>
+        </td>
+        <td>  <button type="reset"> Annuler </button>
+        </td>
+    </tr>
+ </table>
+  </form> 
+</body>
+<footer>
+    <hr style="color: black;">
+    <p>123 NoWhere Street</p>
+</footer>
+
+</html>
